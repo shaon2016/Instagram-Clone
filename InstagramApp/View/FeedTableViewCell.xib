@@ -40,13 +40,13 @@
                         <state key="normal" image="more_icon"/>
                     </button>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z7P-f5-scd">
-                        <rect key="frame" x="20" y="66" width="559" height="419.5"/>
+                        <rect key="frame" x="0.0" y="66" width="599" height="449.5"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="Z7P-f5-scd" secondAttribute="height" multiplier="4:3" id="J8E-Lz-fiU"/>
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3I-HI-v3v">
-                        <rect key="frame" x="73.5" y="495.5" width="25" height="25"/>
+                        <rect key="frame" x="73.5" y="525.5" width="25" height="25"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="muo-Fy-okU"/>
                             <constraint firstAttribute="width" secondItem="T3I-HI-v3v" secondAttribute="height" multiplier="1:1" id="uGI-8l-EQw"/>
@@ -54,7 +54,7 @@
                         <state key="normal" image="comment_icon"/>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdS-1O-Fau">
-                        <rect key="frame" x="123.5" y="495.5" width="28.5" height="25"/>
+                        <rect key="frame" x="123.5" y="525.5" width="28.5" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="LdS-1O-Fau" secondAttribute="height" multiplier="57:50" id="QNf-vM-vhu"/>
                             <constraint firstAttribute="height" constant="25" id="pQ6-UY-qQn"/>
@@ -62,7 +62,7 @@
                         <state key="normal" image="send_icon"/>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ev-XR-ba2">
-                        <rect key="frame" x="558" y="495.5" width="21" height="25"/>
+                        <rect key="frame" x="558" y="525.5" width="21" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="8ev-XR-ba2" secondAttribute="height" multiplier="21:25" id="IFc-M1-eWc"/>
                             <constraint firstAttribute="height" constant="25" id="bi3-55-dEM"/>
@@ -70,32 +70,32 @@
                         <state key="normal" image="collect_icon"/>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xj-QE-euh">
-                        <rect key="frame" x="20" y="495.5" width="28.5" height="25"/>
+                        <rect key="frame" x="20" y="525.5" width="28.5" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="7xj-QE-euh" secondAttribute="height" multiplier="57:50" id="EF6-8j-4ua"/>
                             <constraint firstAttribute="height" constant="25" id="Psa-jQ-8hA"/>
                         </constraints>
                         <state key="normal" image="like_icon"/>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000 Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-vs-Wea">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2000 Likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-vs-Wea">
                         <rect key="frame" x="20" y="532.5" width="559" height="18"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FdB-xX-O94">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="A Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FdB-xX-O94">
                         <rect key="frame" x="20" y="562.5" width="559" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfo-YQ-jH2">
+                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfo-YQ-jH2">
                         <rect key="frame" x="20" y="591.5" width="559" height="30"/>
                         <state key="normal" title="View Comments">
                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </state>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17th September" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYJ-m4-KsA">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="17th September" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYJ-m4-KsA">
                         <rect key="frame" x="20" y="629.5" width="559" height="16"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -111,7 +111,7 @@
                     <constraint firstItem="FdB-xX-O94" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="6mZ-M6-sut"/>
                     <constraint firstItem="8ev-XR-ba2" firstAttribute="top" secondItem="Z7P-f5-scd" secondAttribute="bottom" constant="10" id="7hp-py-ii8"/>
                     <constraint firstAttribute="trailingMargin" secondItem="FdB-xX-O94" secondAttribute="trailing" id="BJS-u9-CqB"/>
-                    <constraint firstAttribute="trailing" secondItem="Z7P-f5-scd" secondAttribute="trailing" constant="20" symbolic="YES" id="Dai-Vd-hzg"/>
+                    <constraint firstAttribute="trailing" secondItem="Z7P-f5-scd" secondAttribute="trailing" id="Dai-Vd-hzg"/>
                     <constraint firstItem="LdS-1O-Fau" firstAttribute="leading" secondItem="T3I-HI-v3v" secondAttribute="trailing" constant="25" id="H5Z-oc-MSE"/>
                     <constraint firstItem="9Er-3P-83c" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SI1-Jm-hv3" secondAttribute="trailing" constant="10" id="HiB-6S-s8M"/>
                     <constraint firstItem="7xj-QE-euh" firstAttribute="top" secondItem="Z7P-f5-scd" secondAttribute="bottom" constant="10" id="I7K-Mn-EXY"/>
@@ -125,7 +125,7 @@
                     <constraint firstItem="0eB-vs-Wea" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="VBJ-qo-ZM3"/>
                     <constraint firstItem="SI1-Jm-hv3" firstAttribute="leading" secondItem="CqF-b4-BXx" secondAttribute="trailing" constant="15" id="a51-NE-gNX"/>
                     <constraint firstItem="rfo-YQ-jH2" firstAttribute="top" secondItem="FdB-xX-O94" secondAttribute="bottom" constant="8" id="mf7-I9-llJ"/>
-                    <constraint firstItem="Z7P-f5-scd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="mxv-7V-h2h"/>
+                    <constraint firstItem="Z7P-f5-scd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mxv-7V-h2h"/>
                     <constraint firstAttribute="bottom" secondItem="mYJ-m4-KsA" secondAttribute="bottom" constant="39.5" id="ouf-QT-W2e"/>
                     <constraint firstItem="8ev-XR-ba2" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="qc2-vU-9bU"/>
                     <constraint firstItem="CqF-b4-BXx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="r6Q-jj-ndT"/>
