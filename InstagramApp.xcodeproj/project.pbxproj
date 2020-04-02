@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		CE04BB422429433E00E56C01 /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04BB412429433E00E56C01 /* ExploreCollectionViewCell.swift */; };
 		CE25412A2431014100E547D9 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2541292431014100E547D9 /* Search.storyboard */; };
+		CE4D3BB124333C7A00FD0A83 /* TabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4D3BB024333C7A00FD0A83 /* TabBarDelegate.swift */; };
+		CE5CD8022432259500589C0C /* NewPostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD8012432259500589C0C /* NewPostPageViewController.swift */; };
+		CE5CD80424324E1D00589C0C /* PhotoLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD80324324E1D00589C0C /* PhotoLibraryVC.swift */; };
+		CE5CD80624324E6500589C0C /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5CD80524324E6500589C0C /* CameraVC.swift */; };
 		CE6059F3242F53AF0045D17A /* SearchCustomCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6059F2242F53AF0045D17A /* SearchCustomCollectionLayout.swift */; };
 		CE64FA4F242CF3150055E369 /* SearchBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64FA4E242CF3150055E369 /* SearchBarContainerView.swift */; };
 		CE87F0882424C372000FAB8D /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87F0862424C372000FAB8D /* StoryCollectionViewCell.swift */; };
@@ -41,6 +45,10 @@
 /* Begin PBXFileReference section */
 		CE04BB412429433E00E56C01 /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE2541292431014100E547D9 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Search.storyboard; path = ../../../InstagramAppFinal/InstagramApp/Storyboards/Search.storyboard; sourceTree = "<group>"; };
+		CE4D3BB024333C7A00FD0A83 /* TabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarDelegate.swift; sourceTree = "<group>"; };
+		CE5CD8012432259500589C0C /* NewPostPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostPageViewController.swift; sourceTree = "<group>"; };
+		CE5CD80324324E1D00589C0C /* PhotoLibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryVC.swift; sourceTree = "<group>"; };
+		CE5CD80524324E6500589C0C /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		CE6059F2242F53AF0045D17A /* SearchCustomCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCustomCollectionLayout.swift; sourceTree = "<group>"; };
 		CE64FA4E242CF3150055E369 /* SearchBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarContainerView.swift; sourceTree = "<group>"; };
 		CE87F0862424C372000FAB8D /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -91,6 +99,9 @@
 				CEC4AFFD2416063E00FF4FD4 /* NewPostVC.swift */,
 				CEC4AFFF241606C200FF4FD4 /* ProfileVC.swift */,
 				CEC4B001241606DA00FF4FD4 /* ActivityVC.swift */,
+				CE5CD8012432259500589C0C /* NewPostPageViewController.swift */,
+				CE5CD80324324E1D00589C0C /* PhotoLibraryVC.swift */,
+				CE5CD80524324E6500589C0C /* CameraVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -150,6 +161,8 @@
 		E147A0832159176200AD9178 /* InstagramApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE4D3BB024333C7A00FD0A83 /* TabBarDelegate.swift */,
+				E147A0842159176200AD9178 /* AppDelegate.swift */,
 				CED2E52D2430BC2E007F0B13 /* Libraries */,
 				CEE9C0C2241E4C4C00D00D0E /* View */,
 				CEC4AFF82416059500FF4FD4 /* Storyboard */,
@@ -159,7 +172,6 @@
 				E147A08D2159176400AD9178 /* LaunchScreen.storyboard */,
 				E147A0902159176400AD9178 /* Info.plist */,
 				E147A08B2159176300AD9178 /* Assets.xcassets */,
-				E147A0842159176200AD9178 /* AppDelegate.swift */,
 			);
 			path = InstagramApp;
 			sourceTree = "<group>";
@@ -273,6 +285,7 @@
 			files = (
 				CE04BB422429433E00E56C01 /* ExploreCollectionViewCell.swift in Sources */,
 				E1E440B42163F16E0034FD40 /* UserData.swift in Sources */,
+				CE4D3BB124333C7A00FD0A83 /* TabBarDelegate.swift in Sources */,
 				CEC4AFFA241605DC00FF4FD4 /* HomeVC.swift in Sources */,
 				E1D28C3721629B5700DB621F /* SimpleCamera.swift in Sources */,
 				CE64FA4F242CF3150055E369 /* SearchBarContainerView.swift in Sources */,
@@ -281,14 +294,17 @@
 				E1D28C3521629B5000DB621F /* SimpleCameraView.swift in Sources */,
 				E1E440B22163ED050034FD40 /* ActivityData.swift in Sources */,
 				E147A0852159176200AD9178 /* AppDelegate.swift in Sources */,
+				CE5CD8022432259500589C0C /* NewPostPageViewController.swift in Sources */,
 				CE6059F3242F53AF0045D17A /* SearchCustomCollectionLayout.swift in Sources */,
 				CEC4AFFE2416063E00FF4FD4 /* NewPostVC.swift in Sources */,
 				E147A09B215917EB00AD9178 /* FeedData.swift in Sources */,
 				CE87F0882424C372000FAB8D /* StoryCollectionViewCell.swift in Sources */,
 				CEC4B002241606DA00FF4FD4 /* ActivityVC.swift in Sources */,
+				CE5CD80624324E6500589C0C /* CameraVC.swift in Sources */,
 				CEC4B000241606C200FF4FD4 /* ProfileVC.swift in Sources */,
 				E1D28C3321629B4800DB621F /* SimpleCameraProtocol.swift in Sources */,
 				CED30C8524239229003BCE92 /* StoryTableViewCell.swift in Sources */,
+				CE5CD80424324E1D00589C0C /* PhotoLibraryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
